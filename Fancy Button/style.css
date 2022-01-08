@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000814;
+}
+
+button {
+    margin-left: 45vw;
+    margin-top: 48vh;
+    background: none;
+    color: #ffa260;
+    border-width: 2px;
+    border-style: dashed; 
+    border-color: #ffa260;
+    padding: 10px 10px;
+    transition: 0.5s
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 5px 50px -4px #f1f55c;
+    transform: translateY(-10px);
+    border-color: #f1f55c;
+}

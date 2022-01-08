@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+img {
+    width: 30%;
+    /* margin: 1.6666666%; */
+    margin: 1.5%;
+    transition:1s;
+    height:350px;
+    background-size:cover;
+    background-position:center;
+}
+
+img:hover {
+	transform:scale(1.5);
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #000;
+    width: 100%;
+    margin-left: 1.5%;
+    padding: 20px 0;
+    text-align:center;
+    transition:2s;
+}
+
+nav:hover {
+	transform: rotate(360deg);
+}

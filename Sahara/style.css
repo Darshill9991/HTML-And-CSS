@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('background.png');
+	background-size:cover;
+	background-position:center;
+	padding-left:8%; /*After nav*/
+	padding-right:8%; /*After nav*/
+	box-sizing: border-box; /*After nav*/
+}
+
+.navbar {
+	height:12%;
+	display:flex;
+	/*justify-content:center;*/
+	align-items:center;
+	/*padding-left:8%; */
+	/*padding-right:8%; */
+}
+
+.logo {
+	width:50px;
+	/*flex:1;*/
+	cursor:pointer;
+}
+
+.menu-icon {
+	width:30px;
+	cursor:pointer;
+	margin-left:40px; /*After nav*/
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li {
+	list-style: none;
+	display:inline-block;
+	margin-left:60px;
+	transition:transform 2s;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 13px;
+	transition:transform 2s;
+}
+
+nav ul li:hover{
+	/*border:solid 5px white;*/
+	/*color:#fff;*/
+	/*font-size: 13px;*/
+	transform: scale(2);
+}
+
+.row {
+	display:flex;
+	height:88%;
+	align-items:center;
+}
+
+.col {
+	flex-basis:50%;
+}
+
+h1 {
+	color:#fff;
+	font-size: 100px;
+}
+
+p {
+	color:#fff;
+	font-size:11px;
+	line-height: 15px;
+}
+
+.row .col button {
+	width:180px;
+	font-size:12px;
+	color:#000;
+	padding:12px 0;
+	background: #fff;
+	border:0;
+	border-radius:20px;
+	margin-top:30px;
+    transition: 0.5s;
+}
+
+.row .col button:hover {
+    color:white;
+    background: black;
+    box-shadow: 0 5px 50px -4px white;
+    transform: translateY(-5px);
+    border-color: #white;
+}
+
+.card {
+	width:200px;
+	height:230px;
+	display:inline-block;
+	border-radius:10px;
+	/*border:solid red 5px;*/
+	padding:15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin:20px 40px;
+	/*background-image: url('https://speedyrose82.qoom.space/Sahara/Desert%20Webpage%20Img/pic-1.png');*/
+	background-size: cover;
+	background-position: center;
+	transition:transform 0.5s;
+}
+
+.card1 {
+	background-image: url('pic-1.png');
+}
+
+.card2 {
+	background-image: url('pic-2.png');
+}
+
+.card3 {
+	background-image: url('pic-3.png');
+}
+
+.card4 {
+	background-image: url('pic-4.png');
+}
+
+.card:hover {
+	transform: translateY(-20px);
+    box-shadow: 0 5px 50px -4px white;
+}
+
+h5 {
+	color:#fff;
+	text-shadow: 0 0 5px #999;
+}
+
+.card p {
+	text-shadow: 0 0 5px #999;
+}

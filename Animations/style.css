@@ -1,0 +1,26 @@
+/* *{
+  background-image: linear-gradient(rgba(0,209,112,0.2), rgba(0,209,112, 0.9) );
+  height: 100vh;
+  margin: 0px;
+} */
+.circle{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  transition: 2s;
+}
+.circle:hover{
+  background-color: blue;
+  border-radius: 50%;
+}
+section div{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  margin: 20px 0;
+  transition: 3s;
+  transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+}
+section:hover div {
+  transform: translateX(500px);
+}
